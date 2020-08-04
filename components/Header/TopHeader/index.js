@@ -8,7 +8,7 @@ const TopHeader = () => {
                 <div className={css.linha}>
                     <div className={css.menu}>
                         <img
-                            src="../../../images/logo_branca.png"
+                            src="../../../images/logo_horizontan_branca.png"
                             alt="Quarentena Empreendedora"
                         />
                     </div>

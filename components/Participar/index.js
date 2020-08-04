@@ -15,23 +15,23 @@ const Participar = () => {
                     
                         <div className={css.itemPreco}>
                             <div><h3>Individual <span>R$ 97,00</span></h3></div>
-                            <div className={css.precoDescricao}>Ou em 10x de R$ 8,90</div>
+                            <div className={css.precoDescricao}>Ou 3x de R$ 34,29</div>
                             <div><a href="http://mpago.la/27xqC8t" target="_Blank">Eu quero</a></div>
                         </div>
 
                         <div className={css.itemPreco}>
                             <div><h3>Duplo <span>R$ 174,00</span></h3></div>
-                            <div className={css.precoDescricao}>Ou em 10x de R$ 8,90</div>
+                            <div className={css.precoDescricao}>Ou 3x de R$ 61,50</div>
                             <div><a href="http://mpago.la/1zvXYN6" target="_Blank">Eu quero</a></div>
                         </div>
                         <div className={css.itemPreco}>
                             <div><h3>Triplo <span>R$ 246,00</span></h3></div>
-                            <div className={css.precoDescricao}>Ou em 10x de R$ 8,90</div>
+                            <div className={css.precoDescricao}>Ou  3x  de  R$ 86,95</div>
                             <div><a href="http://mpago.la/1NTN6NN" target="_Blank">Eu quero</a></div>
                         </div>
                         <div className={css.itemPreco}>
-                            <div style={{textAlign:'center'}}><h3>Combo Maxx <br /> <span>(R$ 80 cada)</span></h3>
-                                <p className={css.precoDescricao}>(10 pessoas + 1 vaga grátis)</p>
+                            <div style={{textAlign:'center'}}><h3>Maxx <span>R$ 80 cada</span> </h3>
+                                <p className={css.precoDescricao}> ou 3x de R$ 282,77 <br />(10 pessoas + 1 vaga grátis)</p>
                             </div>
                             
                             <div><a href="http://mpago.la/25FeAYW" target="_Blank">Eu quero</a></div>

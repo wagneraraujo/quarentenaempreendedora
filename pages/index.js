@@ -8,6 +8,7 @@ import CallToAction from '../components/CallToAction'
 import Palestrantes from '../components/Palestrantes'
 import Participar from '../components/Participar'
 import Duvidas from '../components/Duvidas'
+import Footer from '../components/Footer'
 export default function Home() {
   return (
       <>
@@ -19,6 +20,7 @@ export default function Home() {
         <Palestrantes />
         <Participar />
         <Duvidas />
+        <Footer />
   </>
   )
 }

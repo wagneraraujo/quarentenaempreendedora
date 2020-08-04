@@ -57,10 +57,24 @@ const Duvidas = () => {
                         </Collapse>
 
                         <Collapse button="Estou começando do zero, não sei nada de marketing digital. O workshop é para mim?">
-<p>Independente se você não sabe nada de marketing digital, se tem ou não um perfil nas redes sociais ou se já fez outras estratégias para o seu negócio, o workshop é para você!  
-    É um método utilizado por grandes empresas e nós mesmas colocamos em prática todos os dias nas empresas em que trabalhamos e, já estamos usando em nossos próprios negócios.</p>
-<p>
-Não é um achismo da nossa parte. Depois de anos estudando todos os dias sobre marketing digital e colocando em prática em todos os lugares que já trabalhamos sentimos a segurança de fazer algo que sempre quisemos fazer: ajudar pequenos empreendedores a vender na internet.</p>
+                            <p>
+                                Independente se você não sabe nada de marketing
+                                digital, se tem ou não um perfil nas redes
+                                sociais ou se já fez outras estratégias para o
+                                seu negócio, o workshop é para você! É um método
+                                utilizado por grandes empresas e nós mesmas
+                                colocamos em prática todos os dias nas empresas
+                                em que trabalhamos e, já estamos usando em
+                                nossos próprios negócios.
+                            </p>
+                            <p>
+                                Não é um achismo da nossa parte. Depois de anos
+                                estudando todos os dias sobre marketing digital
+                                e colocando em prática em todos os lugares que
+                                já trabalhamos sentimos a segurança de fazer
+                                algo que sempre quisemos fazer: ajudar pequenos
+                                empreendedores a vender na internet.
+                            </p>
                         </Collapse>
                     </div>
                     <div className={css.col}>
@@ -69,12 +83,21 @@ Não é um achismo da nossa parte. Depois de anos estudando todos os dias sobre 
                             15h e 10 de Agosto às 20h
                         </Collapse>
 
-
                         <Collapse button="Não tenho dinheiro para me inscrever. E agora?">
                             <p>
-        Nós acreditamos que o Workshop Quarentena empreendedora não é um custo e sim um investimento, no seu desenvolvimento profissional e no seu negócio. O valor é muito baixo comparado aos conhecimentos que serão repassados para você, são anos de estudos e testes. <br /> 
-
-Será que “não tenho dinheiro” é só uma desculpa? Pare para refletir e revise suas prioridades, por exemplo: se você deixar de comprar um lanche no final de semana você consegue investir? Se sim, a hora é agora, afinal quem quer dá um jeito e persiste!
+                                Nós acreditamos que o Workshop Quarentena
+                                empreendedora não é um custo e sim um
+                                investimento, no seu desenvolvimento
+                                profissional e no seu negócio. O valor é muito
+                                baixo comparado aos conhecimentos que serão
+                                repassados para você, são anos de estudos e
+                                testes. <br />
+                                Será que “não tenho dinheiro” é só uma desculpa?
+                                Pare para refletir e revise suas prioridades,
+                                por exemplo: se você deixar de comprar um lanche
+                                no final de semana você consegue investir? Se
+                                sim, a hora é agora, afinal quem quer dá um
+                                jeito e persiste!
                             </p>
                         </Collapse>
                     </div>

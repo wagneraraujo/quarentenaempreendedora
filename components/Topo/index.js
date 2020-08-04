@@ -13,7 +13,17 @@ const Topo = () => {
                     </div>
 
                     <div className={css.imagemMulher}>
-                        <img src="../../images/mulher-empreendedora.png" alt="Quarentena Empreendedora - Mulher " />
+                        <picture className={css.pictureWoman}>
+                            <source
+                                srcset="../../images/mulher-empreendedora.png"
+                                media="(min-width: 800px)"
+                            />
+                            <img
+                                src="../../images/imagem-mobile.png"
+                                alt="Mulher Empreendedora"
+        style={{marginTop:'30px'}}
+                            />
+                        </picture>
                     </div>
                 </div>
             </div>

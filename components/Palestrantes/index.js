@@ -21,7 +21,7 @@ const Palestrantes = () => {
                             <h4>Karol Barbosa</h4>
                         </div>
                         <div>
-                            <p>Escritora, redatora e copywriting.</p>
+                            <p>Jornalista de formação, escritora por amor e produtora de conteúdo de carreira. Trabalha com internet desde desde 2013</p>
                         </div>
                     </div>
 
