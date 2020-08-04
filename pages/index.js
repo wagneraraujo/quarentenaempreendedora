@@ -10,10 +10,12 @@ import Participar from '../components/Participar'
 import Duvidas from '../components/Duvidas'
 import Footer from '../components/Footer'
 import Depoimentos from '../components/Depoimentos'
+import MenuBurger from '../components/MenuMobile'
 export default function Home() {
   return (
       <>
         <Header/>
+        <MenuBurger />
         <Topo />
         <Sobre />
         <Bonus />

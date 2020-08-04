@@ -21,7 +21,7 @@ const Bonus = () => {
                         <div className="descricao">
                             <p>
                                 Participação no sorteio de
-                                <strong>1 mês de gerenciamento</strong> do
+                                <strong> 1 mês de gerenciamento</strong> do
                                 Instagram da sua empresa
                             </p>
                         </div>

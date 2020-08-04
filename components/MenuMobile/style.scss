@@ -1,0 +1,33 @@
+
+@import "../../styles/components/variaveis.scss";
+.menuburger{
+  height: 30px;
+  background:$amarelo;
+  width: 100%;
+  padding:10px 0px;
+  ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    padding:0px;
+    margin:8px 0 0 0;
+    align-content: center;
+
+
+
+    a{
+      color:$azul;
+      text-decoration:none;
+      font-weight:400;
+      margin:0 8px;
+      font-size:15px;
+      
+    }
+  }
+
+
+  @media(min-width:755px){
+    display:none;
+  }
+}
+

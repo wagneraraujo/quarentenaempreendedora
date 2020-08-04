@@ -3,14 +3,15 @@ import css from "./style.scss";
 import base from "../../../styles/styles.scss";
 const TopHeader = () => {
     return (
-        <div className={css.topheader}  >
+        <div className={css.topheader}>
             <div className={base.container}>
                 <div className={css.linha}>
                     <div className={css.menu}>
                         <img
                             src="../../../images/logo_horizontan_branca.png"
                             alt="Quarentena Empreendedora"
-                       data-aos="fade-in" />
+                            data-aos="fade-in"
+                        />
                     </div>
                     <div className={css.menuSite}>
                         <nav>
@@ -30,11 +31,6 @@ const TopHeader = () => {
                             </ul>
                         </nav>
 
-                        <div className={css.openmenu}>
-          <a href="#menu">
-                                 <img src="../../../images/menu.png" alt="" />
-                             </a>
-                        </div>
                     </div>
                 </div>
             </div>

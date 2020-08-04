@@ -21,7 +21,11 @@ const Palestrantes = () => {
                             <h4>Karol Barbosa</h4>
                         </div>
                         <div>
-                            <p>Jornalista de formação, escritora por amor e produtora de conteúdo de carreira. Trabalha com internet desde desde 2013</p>
+                            <p>
+                                Jornalista de formação, escritora por amor e
+                                produtora de conteúdo de carreira. Trabalha com
+                                internet desde desde 2013.
+                            </p>
                         </div>
                     </div>
 
@@ -56,9 +60,9 @@ const Palestrantes = () => {
                         </div>
                         <div>
                             <p>
-                                {" "}
+                                
                                 Idealizadora do Diagrama Criativo e Designer
-                                Gráfico com foco em Identidade Visuais.
+                                Gráfico com foco em Identidade Visual.
                             </p>
                         </div>
                     </div>
