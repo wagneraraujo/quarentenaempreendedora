@@ -4,12 +4,12 @@ import base from "../../styles/styles.scss";
 
 const Palestrantes = () => {
     return (
-        <section className={css.palestrantes}>
+        <section className={css.palestrantes} id="palestrantes">
             <div className={css.linhatitle}>
-                <h3>Quem são as palestrantes?</h3>
+                <h3 data-aos="fade-in">Quem são as palestrantes?</h3>
             </div>
             <div className={base.container}>
-                <div className={css.linha}>
+                <div className={css.linha} data-aos="fade-in">
                     <div className={css.itemPalestrante}>
                         <div className="imagem">
                             <img

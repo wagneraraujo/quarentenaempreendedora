@@ -3,9 +3,9 @@ import css from "./style.scss";
 import base from '../../styles/styles.scss'
 const Sobre = () => {
     return (
-        <section className={css.sobre}>
+        <section className={css.sobre} id="sobre">
             <div className={css.linhaTitulo}>
-                <h2>Sobre o Workshop</h2>
+                <h2 data-aos="fade-down">Sobre o Workshop</h2>
                 <p>
                     Serão 6 passos para te ajudar a criar seu próprio negócio e
                     vender mais na internet
@@ -16,7 +16,7 @@ const Sobre = () => {
 
 
             <div className={css.linhaSobre}>
-                <ul>
+                <ul data-aos="fade-in">
                     <li>
                         <span className="number">1</span> Criando a Marca da
                         minha Empresa

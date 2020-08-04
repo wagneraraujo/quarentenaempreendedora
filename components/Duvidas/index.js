@@ -5,7 +5,7 @@ import Collapse from "../../components/Colapse";
 
 const Duvidas = () => {
     return (
-        <section className={css.duvidas}>
+        <section className={css.duvidas} id="duvidas">
             <div className={css.titleDuvidas}>
                 <h3>Dúvidas Frequentes</h3>
             </div>

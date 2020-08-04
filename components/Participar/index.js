@@ -6,12 +6,12 @@ const Participar = () => {
     return (
         <section className={css.participar} id="meinscrever">
             <div className={css.titleParticipar}>
-                <h2>
+                <h2 data-aos="fade-up">
                     Para participar, você pode aderir a um dos pacotes abaixo:
                 </h2>
             </div>
             <div className={base.container}>
-                <div className={css.linha}>
+                <div className={css.linha} data-aos="fade-in">
                     
                         <div className={css.itemPreco}>
                             <div><h3>Individual <span>R$ 97,00</span></h3></div>
