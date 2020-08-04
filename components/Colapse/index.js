@@ -19,12 +19,12 @@ function Collapse(props) {
   return (
     <div>
       <button style={style.buttonStyle} onClick={() => setIsCollapsed(!isCollapsed)}>
-        {isCollapsed ? 'Show' : 'Hide'} content
+        {isCollapsed ? 'Show' : 'Hide'} {props.button}
       </button>
       <div
         className="collapse-content"
-        style={isCollapsed ? style.collapsed : style.expanded}
-        aria-expanded={isCollapsed}
+        style={!isCollapsed ? style.collapsed : style.expanded}
+        aria-expanded={!isCollapsed}
       >
         {props.children}
       </div>
