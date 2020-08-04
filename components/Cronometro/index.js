@@ -10,28 +10,27 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
         // Render a countdown
         return (
             <>
-
-    <h3 className={css.seuTempo}>O seu tempo está acabando!</h3>
-            <div className={css.todoCronometro}>
-                <div>
-                    {days} <span>Dias</span>
+                <h3 className={css.seuTempo}>O seu tempo está acabando!</h3>
+                <div className={css.todoCronometro}>
+                    <div>
+                        {days} <span>Dias</span>
+                    </div>
+                    <div>
+                        {hours}
+                        <span>Horas</span>
+                    </div>
+                    <div>
+                        {minutes}
+                        <span>Minutos</span>
+                    </div>
+                    <div>
+                        {seconds}
+                        <span>Segundos</span>
+                    </div>
+                    <br />
+                    <br />
                 </div>
-                <div>
-                    {hours}
-                    <span>Horas</span>
-                </div>
-                <div>
-                    {minutes}
-                    <span>Minutos</span>
-                </div>
-                <div>
-                    {seconds}
-                    <span>Segundos</span>
-                </div>
-                <br />
-                <br />
-            </div>
-        </>
+            </>
         );
     }
 };

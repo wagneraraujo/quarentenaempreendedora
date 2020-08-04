@@ -9,16 +9,18 @@ import Palestrantes from '../components/Palestrantes'
 import Participar from '../components/Participar'
 import Duvidas from '../components/Duvidas'
 import Footer from '../components/Footer'
+import Depoimentos from '../components/Depoimentos'
 export default function Home() {
   return (
       <>
-        <Header />
+        <Header/>
         <Topo />
         <Sobre />
         <Bonus />
         <CallToAction />
         <Palestrantes />
         <Participar />
+        <Depoimentos />
         <Duvidas />
         <Footer />
   </>

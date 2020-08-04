@@ -1,0 +1,49 @@
+
+@import "../../styles/components/variaveis.scss";
+.depoimentos{
+  background:$branco;
+  padding:40px 15px;
+
+ .titleDepoimentos{
+    text-align:center;
+    color:$azul;
+  }
+
+
+  .linha{
+    display:flex;
+    flex-direction: column;
+
+    .itemDepoimento{
+      margin-bottom:30px;
+      img{
+        max-width:280px;
+        width:280px;
+      }
+    }
+  }
+
+
+  @media(min-width:760px){
+    padding:60px;
+    .titleDepoimentos{
+      h3{
+        font-size: 38px;
+      }
+    }
+    .linha{
+      margin-top:50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .itemDepoimento{
+       margin:0 30px; 
+        img{
+          width:auto;
+          border:1px solid $azul;
+        }
+
+      }
+    }
+  }
+}
