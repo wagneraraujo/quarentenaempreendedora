@@ -3,7 +3,7 @@ import base from "../../styles/styles.scss";
 import css from "./style.scss";
 const Topo = () => {
     return (
-        <section className={css.topoSite}>
+        <section className={css.topoSite} id="topo">
             <div className={base.container}>
                 <div className={css.linha}>
                     <div className={css.titleTopo}>
