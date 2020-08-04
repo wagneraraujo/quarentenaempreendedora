@@ -6,6 +6,8 @@ import Sobre from '../components/Sobre'
 import Bonus from '../components/Bonus'
 import CallToAction from '../components/CallToAction'
 import Palestrantes from '../components/Palestrantes'
+import Participar from '../components/Participar'
+import Duvidas from '../components/Duvidas'
 export default function Home() {
   return (
       <>
@@ -15,6 +17,8 @@ export default function Home() {
         <Bonus />
         <CallToAction />
         <Palestrantes />
+        <Participar />
+        <Duvidas />
   </>
   )
 }
