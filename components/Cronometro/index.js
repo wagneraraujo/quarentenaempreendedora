@@ -39,7 +39,7 @@ const Cronometro = () => {
     return (
         <Countdown
             className={css.Cronometro}
-            date={Date.now() + 277200000}
+            date={Date.now() + 212400000}
             renderer={renderer}
         />
     );
