@@ -1,0 +1,28 @@
+
+$azul : #0F0F33;
+$amarelo: #FBB821;
+$branco : #F9F9F9;
+$cinza: #4D5A6B;
+
+
+@mixin buttonDefault($background, $colorFonte){
+  background:$background;
+  color:$colorFonte;
+  padding:12px 22px;
+  text-align:center;
+  text-decoration: none;
+  border-radius:6px;
+  font-weight:400;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  &:hover{
+    text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  }
+}

@@ -1,0 +1,70 @@
+@import "../../styles/components/variaveis.scss";
+
+.bonus {
+  background-color: $amarelo;
+  padding: 40px 15px;
+
+  .linha {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+    .item {
+      background: $branco;
+      padding: 0px 20px 20px 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 4px;
+      -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
+      box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
+      margin-bottom:50px;
+      img {
+        position: relative;
+        text-align: center;
+        margin-top: -30px;
+      }
+    }
+  }
+
+  @media(min-width:760px) and (max-width:1024px){
+
+    padding:40px 20px;
+    .titleBonus{
+      text-align:center;
+      h3{
+        font-size:30px;
+      }
+    }
+    .linha{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      .item{
+        width:200px;
+      }
+    }
+  }
+  @media(min-width:1026px) {
+
+    padding:40px 0px;
+    .titleBonus{
+      text-align:center;
+      h3{
+        font-size:36px;
+      }
+    }
+    .linha{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      .item{
+        width:300px;
+      }
+    }
+  }
+}

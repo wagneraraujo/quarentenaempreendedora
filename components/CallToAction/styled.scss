@@ -1,0 +1,56 @@
+
+@import "../../styles/components/variaveis.scss";
+
+.calltoaction{
+  background-color: $azul;
+  padding:20px 30px 50px 30px;
+  display:flex;
+  color:$branco;
+  flex-direction: column;
+  text-align: center;
+
+  p{
+    margin-bottom:40px;
+  }
+
+  a{
+    @include buttonDefault($amarelo, $azul);
+    border:1px solid transparent;
+    &:hover{
+      background-color: $branco;
+      color:$azul;
+      border:1px solid $branco;
+
+    }
+  }
+  
+  @media(min-width:1024px){
+      
+  padding:40px 0px;
+  display:flex;
+  color:$branco;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+
+  p{
+    text-align:left;
+    width:400px;
+    font-size:18px
+  }
+  .linha{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  a{
+    position: relative;
+    top:40px;
+    margin-left:20px;
+  }
+    
+  }
+}

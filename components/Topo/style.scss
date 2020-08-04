@@ -1,0 +1,83 @@
+@import "../../styles/components/variaveis.scss";
+.topoSite {
+  padding: 40px 0px 0px 0px;
+  text-align: left;
+  background-color: #fff;
+  h2 {
+    color: $azul;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 26px;
+  }
+  .linha {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    @include buttonDefault($amarelo, $azul);
+    &:hover {
+      background: $azul;
+      color: $branco;
+    }
+  }
+
+  .imagemMulher {
+    display: flex;
+    justify-content: center;
+    img {
+      max-width: 100%;
+      position: relative;
+      top:15px;
+    }
+  }
+
+  @media (min-width: 760px) {
+    padding: 60px 0px 0px 0px;
+    text-align: left;
+    h2 {
+      color: $azul;
+      font-size: 48px;
+      margin-bottom: 0px;
+    }
+    p {
+      font-size: 26px;
+      margin-bottom: 66px;
+    }
+    a {
+      font-size: 22px;
+      padding: 16px 36px;
+    }
+    .linha {
+      padding: 15px;
+      display: flex;
+      flex-direction: row !important;
+      justify-content: space-between;
+    }
+    .titleTopo {
+      width: 50%;
+      margin-top: 60px;
+    }
+    .imagemMulher {
+      margin-top: 0px;
+      display: flex;
+      justify-content: flex-end;
+      img {
+        position: relative;
+        top: 15px;
+        max-width: 100%;
+      }
+    }
+  }
+
+  @media(min-width: 580px) and (max-width:900px){
+  padding: 40px 0px 0px 0px;
+
+    .titleTopo {
+      width: 50%;
+      margin-top: 10px;
+    }
+  }
+}
