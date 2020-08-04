@@ -1,6 +1,6 @@
 @import "../../styles/components/variaveis.scss";
 .topoSite {
-  padding: 20px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: left;
   background-color: #fff;
   h2 {
@@ -9,7 +9,7 @@
   }
   p {
     font-size: 24px;
-    margin-bottom: 46px;
+    margin-bottom: 16px;
   }
   .linha {
     padding: 15px;
@@ -19,10 +19,11 @@
 
   a {
     @include buttonDefault($amarelo, $azul);
-    margin-top:40px;
-    padding:16px 26px;
-    font-size:22px;
+    padding:16px 0px;
+    font-size:18px;
     clear:both;
+    display:block;
+    width:95%;
     &:hover {
       background: $azul;
       color: $branco;
@@ -44,7 +45,7 @@
   }
 
   @media (min-width: 760px) {
-    padding: 60px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     text-align: left;
     h2 {
       color: $azul;
@@ -58,6 +59,7 @@
     a {
       font-size: 22px;
       padding: 16px 36px;
+      width:340px;
     }
     .linha {
       padding: 15px;
@@ -96,3 +98,5 @@
     }
   }
 }
+
+

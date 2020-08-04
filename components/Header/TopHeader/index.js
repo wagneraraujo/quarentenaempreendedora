@@ -3,7 +3,7 @@ import css from "./style.scss";
 import base from "../../../styles/styles.scss";
 const TopHeader = () => {
     return (
-        <div className={css.topheader} >
+        <div className={css.topheader}  >
             <div className={base.container}>
                 <div className={css.linha}>
                     <div className={css.menu}>
@@ -31,9 +31,9 @@ const TopHeader = () => {
                         </nav>
 
                         <div className={css.openmenu}>
-                            // <a href="#menu">
-                            //     <img src="../../../images/menu.png" alt="" />
-                            // </a>
+          <a href="#menu">
+                                 <img src="../../../images/menu.png" alt="" />
+                             </a>
                         </div>
                     </div>
                 </div>

@@ -21,11 +21,12 @@ const Header = () => {
                 content="Quarentena Empreededora"
                 key="title"
             />
-         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+            <link
+                rel="stylesheet"
+                href="https://unpkg.com/aos@next/dist/aos.css"
+            />
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>AOS.init();</script>
             <TopHeader />
         </header>
     );

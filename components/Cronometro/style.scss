@@ -1,0 +1,53 @@
+
+.cronomeetro{
+  clear: both;
+  width:100%;
+  display: block;
+
+}
+.seuTempo{
+  font-weight:500;
+  position: relative;
+  top:15px;
+  font-size:20px;
+  width:100%;
+  padding:0;
+  color: #FBB821;
+  font-weight:bold;
+
+}
+.todoCronometro{
+  width:290px;
+  display:flex;
+  height:60px;
+  justify-content: space-between;
+  padding:7px;
+  div{
+    display:flex;
+    flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  font-size:28px;
+  font-weight:600;
+  span{
+    font-size: 16px;
+    font-weight:400;
+    color:#191919;
+  }
+  }
+}
+
+@media(min-width: 760px){
+
+  .seuTempo{
+    font-size:30px;
+  }
+  .todoCronometro{
+    width:470px;
+    margin-bottom:30px;
+    div{
+      font-size:36px;
+    }
+  }
+}
+
