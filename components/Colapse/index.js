@@ -1,5 +1,5 @@
 import React from 'react'
-
+import css from './style.scss'
 function Collapse(props) {
   const [isCollapsed, setIsCollapsed] = React.useState(props.collapsed);
 
@@ -17,12 +17,12 @@ function Collapse(props) {
   };
 
   return (
-    <div>
+    <div className={css.allCol}>
       <button style={style.buttonStyle} onClick={() => setIsCollapsed(!isCollapsed)}>
-        {isCollapsed ? 'Show' : 'Hide'} {props.button}
+      {isCollapsed ? 'x' : '+'} {props.button}
       </button>
       <div
-        className="collapse-content"
+        className={css.collapseContent}
         style={!isCollapsed ? style.collapsed : style.expanded}
         aria-expanded={!isCollapsed}
       >

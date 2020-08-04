@@ -15,5 +15,40 @@
 
   button{
 
+    background:none;
+    border:none;
+    outline: none;;
+    color:$azul;
+    font-weight: 600;
+    font-size:18px;
+    margin-bottom:20px;
+    padding:7px 10px;
   }
+
+  @media(min-width:760px){
+
+  padding:60px 0px;
+
+  button{
+    text-align: left;
+    padding:7px 0px;
+  }
+
+  .linha{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    .col{
+      margin-bottom:40px;
+      margin:0;
+      padding:0;
+      width:45%;
+      ul{
+        padding:0;
+        margin:0;
+      }
+    }
+  }
+  }
+
 }
