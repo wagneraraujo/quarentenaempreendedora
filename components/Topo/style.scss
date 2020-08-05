@@ -3,6 +3,12 @@
   padding: 0px 0px 0px 0px;
   text-align: left;
   background-color: #fff;
+.conts{
+  border-radius:2px solid #abeafe;
+  a{
+    background-color: none !important;
+  }
+}
   h2 {
     color: $azul;
     font-size:32px;
@@ -97,6 +103,10 @@
       margin-top: 10px;
     }
   }
+}
+#conts{
+  border:2px solid #abeafe;
+  height:40px;
 }
 
 
