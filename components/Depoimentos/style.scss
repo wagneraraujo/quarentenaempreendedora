@@ -13,6 +13,8 @@
   .linha{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+  text-align: center;
 
     .itemDepoimento{
       margin-bottom:30px;

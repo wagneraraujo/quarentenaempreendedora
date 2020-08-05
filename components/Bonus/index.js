@@ -36,7 +36,7 @@ const Bonus = () => {
                         </div>
                         <div className="descricao">
                             <p>
-                                Participação no sorteio do{" "}
+                                Participação no sorteio do
                                 <strong>livro Armas da Persuasão</strong>.
                             </p>
                         </div>

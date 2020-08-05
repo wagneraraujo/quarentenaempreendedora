@@ -1,0 +1,74 @@
+
+@import "../../styles/components/variaveis.scss";
+
+.calltoaction{
+  background-color: $azul;
+  padding:20px 30px 90px 30px;
+  display:flex;
+  color:$branco;
+  flex-direction: column;
+  text-align: center;
+
+  img{
+    height: 350px;
+  }
+  p{
+    margin-bottom:40px;
+    font-size:18px;
+    font-weight:600;
+  }
+
+  a{
+    @include buttonDefault($amarelo, $azul);
+    border:1px solid transparent;
+    font-size:20px;
+    font-weight: 400;
+    &:hover{
+      background-color: $branco;
+      color:$azul;
+      border:1px solid $branco;
+
+    }
+  }
+  
+  @media(min-width:1024px){
+      
+  padding:40px 0px;
+  display:flex;
+  color:$branco;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+
+  img{
+    height:450px;
+    order:2;
+  }
+  p{
+    text-align:right;
+    width:380px;
+    font-size:22px;
+    order:0;
+    margin-top:130px;
+    position: relative;
+    left:-22px;
+    span{
+      font-weight:bold;
+      color:$amarelo
+    }
+  }
+  .linha{
+    display:flex;
+  justify-content: center;
+    flex-direction: row ;
+    margin-left:-120px;
+  }
+
+  a{
+    position: absolute;
+    margin-left:-190px;
+    margin-top:230px;
+  }
+    
+  }
+}

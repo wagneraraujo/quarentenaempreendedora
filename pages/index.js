@@ -11,6 +11,7 @@ import Duvidas from '../components/Duvidas'
 import Footer from '../components/Footer'
 import Depoimentos from '../components/Depoimentos'
 import MenuBurger from '../components/MenuMobile'
+import Ebook from '../components/Ebook'
 export default function Home() {
   return (
       <>
@@ -24,6 +25,7 @@ export default function Home() {
         <Participar />
         <Depoimentos />
         <Duvidas />
+        <Ebook />
         <Footer />
   </>
   )

@@ -44,7 +44,7 @@ const Duvidas = () => {
                                 <li>
                                     6. Vai aprender a fazer tráfego e
                                     impulsionamento das suas publicações nas
-                                    redes sociais e seja mais visto e
+                                    redes sociais e ser mais visto e
                                     consequentemente aumente suas vendas.
                                 </li>
                                 <li>
@@ -79,8 +79,8 @@ const Duvidas = () => {
                     </div>
                     <div className={css.col}>
                         <Collapse button="Qual o cronograma do workshop?">
-                            Serão nos dias 07 de Agosto às 20h, 08 de Agosto às
-                            15h e 10 de Agosto às 20h
+                            Será nos dias 07 de Agosto às 20h, 08 de Agosto às
+                            15h e 10 de Agosto às 20h.
                         </Collapse>
 
                         <Collapse button="Não tenho dinheiro para me inscrever. E agora?">

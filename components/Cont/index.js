@@ -28,7 +28,7 @@ const CountdownDisplay = props => {
                 <h3 className={css.seuTempo}>O seu tempo está acabando!</h3>
     <time
 className={css.todoCronometro}
-      datetime={`P${asDays}DT${hours}H${minutes}M${seconds}S`}
+      dateTime={`P${asDays}DT${hours}H${minutes}M${seconds}S`}
     >
       <div className="CountdownDisplay__days">
       {String(days).padStart(2, 0)} <span>dias</span>
