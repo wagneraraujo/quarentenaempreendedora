@@ -6,7 +6,7 @@ import css from '../Cronometro/style.scss'
 
 const Cont = props => {
   return (
-    <Countdown toDate={new Date("August 7, 2020 22:00:00")}>
+    <Countdown toDate={new Date("August 7, 2020 14:00:00")}>
       {props => (
         <CountdownDisplay
           days={props.days}
