@@ -1,7 +1,7 @@
 import React from "react";
 import base from "../../styles/styles.scss";
 import css from "./style.scss";
-import  Cont from '../Cont'
+import Cont from "../Cont";
 const Topo = () => {
     return (
         <section className={css.topoSite} id="topo">
@@ -14,7 +14,6 @@ const Topo = () => {
                         <p data-aos="fade-in">
                             Use a internet para crescer o seu negócio
                         </p>
-                        <Cont />
 
                         <a href="#meinscrever" data-aos="fade-in">
                             Quero garantir minha vaga
